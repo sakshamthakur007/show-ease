@@ -1,0 +1,42 @@
+.seats {
+  display: flex;
+  align-items: center;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.seats:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.seats.active {
+  background-color: #2ecc71;
+}
+
+.seats.active:hover {
+  background-color: #27ae60;
+}
+
+.text {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.seats-input {
+  width: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.seats-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
